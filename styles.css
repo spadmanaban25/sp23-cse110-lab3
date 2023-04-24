@@ -3,17 +3,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
+* {
+  font-family: Source Sans Pro;
+}
 body{
     margin: auto;
     background-color: skyblue;
-    font-family: Source Sans Pro;
-
-   
+    
 }
 
 p {
     width: 12 vw; 
     width: 15 lvw;
+}
+
+a[target] {
+  background-color: red;
 }
 
 a:hover {
@@ -102,7 +107,7 @@ header {
      
   }
 
-  #Contact {
+  .contactBox {
     width: 1800px;
     height: 750px;
     max-width: 2000px;
@@ -143,9 +148,27 @@ header {
     color: rgb(9, 89, 4) 
   }
 
-
-
   table, th, td {
     border: 2px solid black;
+  }
+
+  div > p {
+    font-size: 20px;
+  }
+
+  div + p {
+    font-size: 25px;
+  }
+
+  div ~ p {
+    font-weight: bold;
+  }
+
+  li li {
+    list-style-type: circle;
+  }
+
+  p.contactBox{
+    color: brown;
   }
   

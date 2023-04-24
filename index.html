@@ -4,13 +4,20 @@
 <head>
   <title>CSE 110 Team 28 Meeting</title>
   <meta name="description" content="Sample of a Meeting Minutes Document">
-  <link rel="stylesheet" href="textandcolor.css">
-  
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    @media screen and (max-width: 1000px) and (max-height: 1000px) {
+      body {
+        background-color: lightgreen;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <main>
-    <header>
+    <div class="headBox">
+      <header>
         <h1 style="color: blue;">Team 28 First Meeting</h1>
         <p><b>Created by <span class="author">Steve Padmanaban</span></b></p>
         <nav>
@@ -23,92 +30,100 @@
 
         </nav>
 
-      <br><br>
-    </header>
-    <section>
-      <h2>Logistics</h2>
-      <table>
-        <tr>
-          <td><b>Meeting Name:</b></td>
-          <td>Team Name and Logo Brainstorm</td>
-        </tr>
-        <tr>
-          <td><b>Date and Time of Meeting:</b></td>
-          <td>April 16, 2023 at 12:00 PM PST</td>
-        </tr>
-        <tr>
-          <td><b>Location:</b></td>
-          <td>UC San Diego RIMAC Meeting Room</td>
-        </tr>
-        <tr>
-          <td><b>Objectives:</b></td>
-          <td>Come up with an appropriate Team Name and Logo that everyone can agree upon</td>
-        </tr>
-      </table> <br><br>
-    </section>
-    <section>
-      <div id="TeamMembers">
-        <h2>Attendees</h2>
-        <form>
-          <input type="checkbox">
-          <label>Cody</label><br>
-          <input type="checkbox">
-          <label>Jackie</label><br>
-          <input type="checkbox">
-          <label>Steve</label><br>
-          <input type="checkbox">
-          <label>Brandon</label><br>
-          <input type="checkbox">
-          <label>Jason</label><br>
-          <input type="checkbox">
-          <label>Jenny</label><br>
-          <input type="checkbox">
-          <label>Terry</label><br>
-          <input type="checkbox">
-          <label>Wesley</label><br>
-          <input type="checkbox">
-          <label>Alvaro</label><br>
-          <input type="checkbox">
-          <label>Ishan</label><br>
-        </form> <br><br>
+        <br><br>
+      </header>
 
-      </div>
-    </section>
-    <section>
-      <div id="Plan">
-        <h2>Agenda</h2>
+    </div>
+
+    <div class="prefaceBox">
+      <section>
+        <h2>Logistics</h2>
         <table>
           <tr>
-            <th>Topic</th>
-            <th>Time</th>
+            <td><b>Meeting Name:</b></td>
+            <td>Team Name and Logo Brainstorm</td>
           </tr>
+          <tr>
+            <td><b>Date and Time of Meeting:</b></td>
+            <td>April 16, 2023 at 12:00 PM PST</td>
+          </tr>
+          <tr>
+            <td><b>Location:</b></td>
+            <td>UC San Diego RIMAC Meeting Room</td>
+          </tr>
+          <tr>
+            <td><b>Objectives:</b></td>
+            <td>Come up with an appropriate Team Name and Logo that everyone can agree upon</td>
+          </tr>
+        </table> <br><br>
+      </section>
+      <section>
+        <div id="TeamMembers">
+          <h2>Attendees</h2>
+          <form>
+            <input type="checkbox">
+            <label>Cody</label><br>
+            <input type="checkbox">
+            <label>Jackie</label><br>
+            <input type="checkbox">
+            <label>Steve</label><br>
+            <input type="checkbox">
+            <label>Brandon</label><br>
+            <input type="checkbox">
+            <label>Jason</label><br>
+            <input type="checkbox">
+            <label>Jenny</label><br>
+            <input type="checkbox">
+            <label>Terry</label><br>
+            <input type="checkbox">
+            <label>Wesley</label><br>
+            <input type="checkbox">
+            <label>Alvaro</label><br>
+            <input type="checkbox">
+            <label>Ishan</label><br>
+          </form> <br><br>
 
-          <tr>
-            <td>Check-in/Introductions</td>
-            <td>10 minutes</td>
-          </tr>
-          <tr>
-            <td>Brainstorm Potential Team Names</td>
-            <td>15 minutes</td>
-          </tr>
-          <tr>
-            <td>Brainstorm Team Logos/Create Potential Logos</td>
-            <td>25 minutes</td>
-          </tr>
-          <tr>
-            <td>Wrap Up/Final Announcements</td>
-            <td>10 minutes</td>
-          </tr>
-        </table>
+        </div>
+      </section>
+      <section>
+        <div id="Plan">
+          <h2>Agenda</h2>
+          <table>
+            <tr>
+              <th>Topic</th>
+              <th>Time</th>
+            </tr>
 
-      </div>
-    </section>
+            <tr>
+              <td>Check-in/Introductions</td>
+              <td>10 minutes</td>
+            </tr>
+            <tr>
+              <td>Brainstorm Potential Team Names</td>
+              <td>15 minutes</td>
+            </tr>
+            <tr>
+              <td>Brainstorm Team Logos/Create Potential Logos</td>
+              <td>25 minutes</td>
+            </tr>
+            <tr>
+              <td>Wrap Up/Final Announcements</td>
+              <td>10 minutes</td>
+            </tr>
+          </table>
+
+        </div>
+      </section>
+    </div>
+
     <br><br>
     <hr>
-    <section>
-      <div id="Notes">
-        <h2>Notes</h2>
-        <p>Questions/Concerns:</p>
+
+    <div class="notesBox">
+      <section>
+        <div id="Notes">
+          <h2>Notes</h2>
+          <p>Questions/Concerns:</p>
           <ul>
             <li>Select later time for future meetings</li>
             <li>Try to keep meetings under 45 minutes</li>
@@ -120,51 +135,57 @@
             <li>Accept invitation that will be sent to your email by clicking <i>Join</i></li>
             <li>Enter name and password, and click <i>Create Account</i></li>
             <li>You will be directed to the Slack Workspace</li>
-          </ol>     
+          </ol>
 
-        <br><br>
-        <h3>Plan Layout:</h3>
-        <img src="https://raw.githubusercontent.com/spadmanaban25/Lab2_Starter/main/MeetingMinuteDiagram.png" alt="MeetingMinuteDiagram"> <br><br>
-        <h3>Possible Team Names:</h3>
-        <h4>Confirmed:</h4>
-        <ul>
-          <li><em>Amazon 2</em></li>
-          <li><em>Agile Avengers</em></li>
-          <li><em>Code Crushers</em></li>
-        </ul><br>
-        <h4>Backups</h4>
-        <ul>
-          <li><em>Powell Rangers</em></li>
-          <li><em>Digital Dream Team</em></li>
-        </ul><br><br>
+          <br><br>
+          <h3>Plan Layout:</h3>
+          <img src="https://raw.githubusercontent.com/spadmanaban25/Lab2_Starter/main/MeetingMinuteDiagram.png"
+            alt="MeetingMinuteDiagram"> <br><br>
+          <h3>Possible Team Names:</h3>
+          <h4>Confirmed:</h4>
+          <ul>
+            <li><em>Amazon 2</em></li>
+            <li><em>Agile Avengers</em></li>
+            <li><em>Code Crushers</em></li>
+          </ul><br>
+          <h4>Backups</h4>
+          <ul>
+            <li><em>Powell Rangers</em></li>
+            <li><em>Digital Dream Team</em></li>
+          </ul><br><br>
 
-        <h2>Possible Team Logos based on Confirmed Names:</h2>
+          <h2>Possible Team Logos based on Confirmed Names:</h2>
 
-        <img src="https://raw.githubusercontent.com/spadmanaban25/Lab2_Starter/main/Amazon%202.png" alt="amazon2" width="450" height="300">
-        <img src="https://raw.githubusercontent.com/spadmanaban25/Lab2_Starter/main/AgileAvengers.png" alt="AgileAvengers" width="450" height="500">
-        <img src="https://raw.githubusercontent.com/spadmanaban25/Lab2_Starter/main/Code%20Crusher%20Logo.jpg" alt="Code Crusher" height="500"><br>
-        <h3>We will conduct a vote for the official Team Name and Logo in the next meeting</h3>
-      </div>
-    </section>
-    <hr>
-    <br><br>
-    <section>
-      <div id="Speech">
-        <details>
-          <summary>
-            <strong>Here is the video and audio of the motiviational speech played during the meeting:</strong>
-          </summary>
-          <h3>Steve Harvey Video:</h3>
-          <video width="300" height="300" controls>
-            <source src="Steve%20Harvey%20Speech%20Video.mp4" type="video/mp4">
-          </video>
-          <h3>Steve Harvey Audio:</h3>
-          <audio controls>
-            <source src="Steve%20Harvey%20Speech%20Audio.mp3" type="audio/mp3">
-          </audio>
-        </details>
-      </div>
-    </section>
+          <img src="https://raw.githubusercontent.com/spadmanaban25/Lab2_Starter/main/Amazon%202.png" alt="amazon2"
+            width="450" height="300">
+          <img src="https://raw.githubusercontent.com/spadmanaban25/Lab2_Starter/main/AgileAvengers.png"
+            alt="AgileAvengers" width="450" height="500">
+          <img src="https://raw.githubusercontent.com/spadmanaban25/Lab2_Starter/main/Code%20Crusher%20Logo.jpg"
+            alt="Code Crusher" height="500"><br>
+          <h3>We will conduct a vote for the official Team Name and Logo in the next meeting</h3>
+        </div>
+      </section>
+      <hr>
+      <br><br>
+      <section>
+        <div id="Speech">
+          <details>
+            <summary>
+              <strong>Here is the video and audio of the motiviational speech played during the meeting:</strong>
+            </summary>
+            <h3>Steve Harvey Video:</h3>
+            <video width="300" height="300" controls>
+              <source src="Steve%20Harvey%20Speech%20Video.mp4" type="video/mp4">
+            </video>
+            <h3>Steve Harvey Audio:</h3>
+            <audio controls>
+              <source src="Steve%20Harvey%20Speech%20Audio.mp3" type="audio/mp3">
+            </audio>
+          </details>
+        </div>
+      </section>
+    </div>
+
     <br><br>
     <hr>
     <section>
@@ -183,7 +204,7 @@
             <label>Employee</label>
             <input type="radio" value="employer">
             <label>Employer</label><br><br>
-            
+
             <label for="year">If you are a student please select your current year:</label>
             <input list="years" name="year" id="year">
             <datalist id="years">
@@ -203,14 +224,14 @@
             <input type="number" id="phone" name="phone"><br><br>
             <label for="birthday">Birthday:</label>
             <input type="date" id="birthday" name="birthday"><br><br>
-            
+
             <label for="experience">What is your experience with Meeting Minutes?</label>
             <select name="experience" id="experience">
               <option value="little">Little to No Experience</option>
               <option value="some">Some Amount of Experience</option>
               <option value="lot">A lot of Experience</option>
             </select><br><br>
-            
+
             <p><strong>Feel free to leave a message:</strong></p>
             <textarea rows="7" cols="40"></textarea> <br><br>
 
@@ -220,11 +241,12 @@
       </div>
     </section>
     <br>
-    <footer>
+    <footer class="footBox">
       <p>Author: Steve Padmanaban</p>
       <p>Second year student at UC San Diego</p>
       <p>Copyright &copy; 2023 CSE110SP23 Team 28. All Rights Reserved</p>
     </footer>
   </main>
 </body>
+
 </html>

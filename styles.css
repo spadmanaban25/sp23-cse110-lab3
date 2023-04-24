@@ -1,0 +1,151 @@
+/*Stylesheet for Meeting Minutes Website*/
+/*Courtesy: Steve Padmanaban*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body{
+    margin: auto;
+    background-color: skyblue;
+    font-family: Source Sans Pro;
+
+   
+}
+
+p {
+    width: 12 vw; 
+    width: 15 lvw;
+}
+
+a:hover {
+   color: yellow;
+}
+
+a:active {
+    color: pink;
+}
+
+h2 {
+    text-decoration: underline;
+    width: 30 vmin;
+}
+
+#Notes {
+    color: rgb(128, 13, 5);
+}
+
+header {
+    text-align: center;
+}
+
+.headBox {
+    display: inline-block;
+    position: relative;
+    width: 1800px;
+    height: 150px;
+    max-width: 2000px;
+    max-height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 0.0521in;
+    
+  }
+
+  .prefaceBox {
+    display: flexbox;
+    width: 1800px;
+    height: 850px;
+    max-width: 2000px;
+    max-height: 1000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 0.1323cm;
+    color: rgb(87, 61, 135)    
+  }
+
+  .notesBox {
+    display: grid;
+    position: static;
+    width: 1800px;
+    height: 2200px;
+    max-width: 2000px;
+    max-height: 2200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 5px;
+     
+  }
+
+  #Contact {
+    width: 1800px;
+    height: 750px;
+    max-width: 2000px;
+    max-height: 1000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 5px;
+    color: rgb(9, 89, 4) 
+  }
+
+  .footBox {
+    display: block;
+    width: 1800px;
+    height: 100px;
+    max-width: 2000px;
+    max-height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 5px;
+    color: rgb(9, 89, 4) 
+  }
+
+
+
+  table, th, td {
+    border: 2px solid black;
+  }
+  
